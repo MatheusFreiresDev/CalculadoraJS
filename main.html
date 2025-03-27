@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Matheus</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <nav>
+        <h1>CalcJs</h1>
+        <button data-theme="dark" id="theme-btn">🌙</button>
+    </nav>
+    <div class="container">
+        <input type="text" id="input" placeholder="0">
+        <div id="result"><button id="bnt-copy">Copiar</button><input type="text" id="resultado" placeholder="Resultado" readonly></div>
+        <div>
+            <button id="clean">C</button>
+            <button value="(" class="keys">(</button>
+            <button value=")" class="keys">)</button>
+            <button value="/" class="keys">/</button>
+            <br>
+            <button value="7" class="keys">7</button>
+            <button value="8" class="keys">8</button>
+            <button value="9" class="keys">9</button>
+            <button value="*" class="keys">×</button>
+            <br>
+            <button value="4" class="keys">4</button>
+            <button value="5" class="keys">5</button>
+            <button value="6" class="keys">6</button>
+            <button value="-" class="keys">−</button>
+            <br>
+            <button value="1" class="keys">1</button>
+            <button value="2" class="keys">2</button>
+            <button value="3" class="keys">3</button>
+            <button value="+" class="keys">+</button>
+            <br>
+            <button value="0" class="keys">0</button>
+            <button value="." class="keys">.</button>
+            <button value="," class="keys">,</button>
+            <button value="=" id="equal">=</button>
+        </div>
+    </div>
+    <footer>
+        <h1 class="desc">by Matheus Freires</h1>
+        <div class="social-links">
+            <a href="https://github.com/MatheusFreiresDev" target="_blank" class="social-btn">GitHub</a>
+            <a href="https://www.linkedin.com/in/matheus-freires-pereira-a74580303/" target="_blank" class="social-btn">LinkedIn</a>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
